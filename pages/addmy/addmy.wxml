@@ -1,0 +1,24 @@
+<!--pages/addmy/addmy.wxml-->
+<view>
+  <cell title="地址">
+    <view slot="right">
+      <input type='text' placeholder='如：国土资源局' confirm-type="done" value="{{name}}"></input>
+    </view>
+  </cell>
+  <cell title="具体地址">
+    <view slot="right">
+      <input type='text' placeholder='如：广东省广州市天河区' confirm-type="done" value="{{address}}"></input>
+    </view>
+  </cell>
+  <cell title="地图选址"  bind:click="openMap">
+    <view slot="right" class='aui-flex-col aui-flex-middle'>
+      <text>请选择地址</text>
+      <text class='iconfont icon-arrow-right'></text>
+    </view>
+  </cell>
+  <textarea placeholder='备注：' show-confirm-bar class='textarea bor-top' value="{{remark}}"></textarea>
+  <view class='pad-lr-20'>
+    <button type='primary' bindtap='save'>保存</button>
+    <button type="default" class='mar-t-20' bindtap='cancel'>取消</button>
+  </view> 
+</view>

@@ -1,0 +1,16 @@
+<view>
+  <cell title="新增地址" class="c-green" bind:click="onclick">
+    <text slot="left-icon" class='iconfont icon-add'></text>
+    <text slot="right" class='iconfont icon-arrow-right'></text>
+  </cell>
+  <collapse wx:for="{{addresses}}" wx:key="index" title="{{item.name}}">
+    <view class='aui-flex-col aui-flex-between'>
+      <text>地址</text>
+      <text>{{item.address}}</text>
+    </view>
+    <view class='aui-flex-col aui-flex-between'>
+      <text>备注</text>
+      <text>{{item.remark}}</text>
+    </view>
+  </collapse>
+</view>

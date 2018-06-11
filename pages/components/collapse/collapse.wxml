@@ -1,0 +1,10 @@
+<!--pages/components/collapse/collapse.wxml-->
+<view class='collapse-container'>
+  <view class='collapse-header common-cell aui-flex-col aui-flex-middle aui-flex-between' bindtap="toggleCollapse">
+    <text>{{title}}</text>
+    <text class='iconfont icon-arrow-right'></text>
+  </view>
+  <view class="common-cell collapse-body {{isOpen?'show':''}}" >
+    <slot></slot>
+  </view>
+</view>

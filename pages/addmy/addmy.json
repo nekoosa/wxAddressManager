@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "cell": "/pages/components/cell/cell"
+  }
+}

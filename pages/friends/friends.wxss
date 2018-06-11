@@ -1,0 +1,4 @@
+/* pages/friends/index.wxss */
+@import "/assets/iconfont/iconfont.wxss";
+@import "/assets/styles/aui-flex.wxss";
+@import "/assets/styles/common.wxss";

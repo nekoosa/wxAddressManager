@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <view class='tab-area'>
+    <navigator open-type='switchTab' url="/pages/my/index" class='navigator-item'>
+      <text class='iconfont icon-touxiang'></text>
+      <text>我的</text>
+    </navigator>
+    <navigator open-type='switchTab'  url="/pages/friends/index" class='navigator-item'>
+      <text class='iconfont icon-list'></text>
+      <text>TA的</text>
+    </navigator>
+  </view> -->
+</view>

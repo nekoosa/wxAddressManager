@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "地址夹",
+  "usingComponents": {
+    "address-cell": "/pages/components/addressCell/address-cell",
+    "cell": "/pages/components/cell/cell"
+  }
+}

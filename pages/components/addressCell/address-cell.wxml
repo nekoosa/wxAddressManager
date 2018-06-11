@@ -1,0 +1,12 @@
+<!--pages/components/addressCell/address-cell.wxml-->
+<view class='address-cell-container'>
+   <view class='aui-flex-col'>
+    <image src="{{item.avatarUrl}}" class='avatar-img'></image>
+    <view class='aui-flex-auto right-block'>
+      <view>{{item.name}}<text class='iconfont icon-copy c-green' bindtap='copyToClip' data-content="{{item.name}}"></text></view>
+      <view>{{item.phone}}<text class='iconfont icon-copy c-green' bindtap='copyToClip' data-content="{{item.phone}}"></text></view>
+      <view>{{item.address}}<text class='iconfont icon-copy c-green' bindtap='copyToClip' data-content="{{item.address}}"></text></view>
+    </view>
+  </view>
+  <text class='iconfont icon-edit c-green edit-icon'></text>
+</view>

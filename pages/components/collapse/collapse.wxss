@@ -1,0 +1,26 @@
+/* pages/components/collapse/collapse.wxss */
+@import "/assets/styles/aui-flex.wxss";
+@import "/assets/iconfont/iconfont.wxss";
+@import "/assets/styles/common.wxss";
+
+.collapse-container {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-top-width: 1rpx;
+  border-top-style: solid;
+  border-top-color: #f6f7f8;
+  overflow: hidden;
+}
+.collapse-container .collapse-header {
+  padding: 0 20rpx;
+  background-color: #ffffff;
+}
+.collapse-container .collapse-body {
+  display: block;
+  height: 0;
+  padding: 0 20rpx;
+  background-color: #f6f7f8;
+}
+.collapse-container .collapse-body.show {
+  height: auto; 
+}

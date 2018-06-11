@@ -1,0 +1,8 @@
+<!--pages/friends/friends.wxml-->
+<view>
+  <cell title="邀请Ta填写地址" class="c-green" bind:click="onclick">
+    <text slot="left-icon" class='iconfont icon-add'></text>
+    <text slot="right" class='iconfont icon-arrow-right'></text>
+  </cell>
+  <address-cell wx:for="{{list}}" wx:key="{{index}}" item="{{item}}"></address-cell>
+</view>

@@ -1,0 +1,30 @@
+page {
+  font-size: 40rpx;
+  line-height: 40rpx;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+.block {
+  display: block;
+}
+.pad-lr-20 {
+  padding: 0 20rpx;
+}
+.mar-t-20 {
+  margin-top: 20rpx;
+}
+.mar-l-20 {
+  margin-left: 20rpx;
+}
+.common-cell text {
+  font-size: 40rpx;
+  line-height: 100rpx;
+}
+.c-green {
+  color: #11cd6e;
+}
+.bor-top {
+  border-top-width: 1rpx;
+  border-top-style: solid;
+  border-top-color: #f6f7f8;
+}

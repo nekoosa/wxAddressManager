@@ -1,0 +1,17 @@
+/* pages/components/cell/cell.wxss */
+@import "/assets/styles/aui-flex.wxss";
+@import "/assets/iconfont/iconfont.wxss";
+@import "/assets/styles/common.wxss";
+
+.cell-container {
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-top-width: 1rpx;
+  border-top-style: solid;
+  border-top-color: #f6f7f8;
+  overflow: hidden;
+}
+.cell-container {
+  text-align: right;
+}

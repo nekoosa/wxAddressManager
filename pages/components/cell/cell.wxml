@@ -1,0 +1,8 @@
+<!--pages/components/cell/cell.wxml-->
+<view class='cell-container common-cell aui-flex-col aui-flex-middle aui-flex-between' bindtap="handleclick">
+  <view>
+    <slot name="left-icon"></slot>
+    <text>{{title}}</text>
+  </view>
+  <slot name="right"></slot>
+</view>

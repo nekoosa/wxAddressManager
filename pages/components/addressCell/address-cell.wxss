@@ -1,0 +1,26 @@
+/* pages/components/addressCell/address-cell.wxss */
+@import "/assets/iconfont/iconfont.wxss";
+@import "/assets/styles/aui-flex.wxss";
+@import "/assets/styles/common.wxss";
+.address-cell-container {
+  position: relative;
+  margin-top: 3rpx;
+  padding: 20rpx;
+  background-color: #f8f8f8;
+  color: #666666;
+}
+.avatar-img {
+  display: inline-block;
+  width: 150rpx;
+  height: 150rpx;
+}
+.right-block {
+  margin-left: 20rpx;
+  font-size: 35rpx;
+  line-height: 60rpx;
+}
+.edit-icon {
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+}

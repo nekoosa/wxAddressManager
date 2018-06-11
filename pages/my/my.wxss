@@ -1,0 +1,4 @@
+/* pages/my/index.wxss */
+@import "/assets/styles/common.wxss";
+@import "/assets/styles/aui-flex.wxss";
+@import "/assets/iconfont/iconfont.wxss";
